@@ -240,7 +240,7 @@ p {
 
 .menu-block {
     position: relative;
-    z-index: 3;
+    z-index: 20000;
 }
 .menu-block.navbar-fixed-top {
     position: fixed;
@@ -515,6 +515,26 @@ p {
 .card-five {
     position: relative;
     top: -227.5%;
+    left: 40%;
+    font-size: 12px;
+    color: #fcf5eb !important;
+}
+/* .final_bakchodi{
+    width: 200%;
+    position: relative;
+    left: -50%;
+    top: -50% !important;
+} */
+.card-five1 {
+    position: relative;
+    top: -245%;
+    left: 40%;
+    font-size: 12px;
+    color: #fcf5eb !important;
+}
+.card-five11 {
+    position: relative;
+    top: -160%;
     left: 40%;
     font-size: 12px;
     color: #fcf5eb !important;

@@ -1294,7 +1294,6 @@
 	overflow: hidden;
 }
 .gallery-box::before {
-	background-color: rgba(226,177,60,0.9);
 	content: "";
 	display: inline-block;
 	position: absolute;

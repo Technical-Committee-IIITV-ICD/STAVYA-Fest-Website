@@ -14224,6 +14224,7 @@ you can use the generic selector below, but it's slower:
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
+    z-index: 200;
 }
 @-webkit-keyframes fadeInDownBig {
     0% {

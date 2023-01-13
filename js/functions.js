@@ -95,22 +95,7 @@
 	// 	}
 	// }
 	
-	/* - History Section */
-	function history_img() {
-		var width = $(window).width();
-		var history_content_height = $(".history-section .history-details").height();
-		if ( width >= 992 ) {
-			$( ".history-section .img-block" ).removeAttr("style");
-			$( ".history-section .img-block img" ).remove();
-			var history_image = $(".history-section .img-block").attr("data-image");
-			$( ".history-section .img-block" ).css({"background-image":"url('" + history_image + "')","height": history_content_height });
-		} else {
-			$( ".history-section .img-block" ).removeAttr("style");
-			$( ".history-section .img-block img" ).remove();
-			var history_image = $(".history-section .img-block").attr("data-image");
-			$( ".history-section .img-block" ).append("<img src='"+ history_image +"' />")
-		}
-	}
+
 	
 	/* - Venu Section 2 */
 	function venu_img() {
@@ -248,7 +233,7 @@
 		}
 		
 		$('.navbar-nav li a[href*="#"]:not([href="#"]), .site-logo a[href*="#"]:not([href="#"])').on("click", function(e) {
-	
+			
 			var $anchor = $(this);
 			
 			$("html, body").stop().animate({ scrollTop: $($anchor.attr("href")).offset().top - 49 }, 1500, "easeInOutExpo");
