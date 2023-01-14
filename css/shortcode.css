@@ -2819,3 +2819,12 @@
 		padding: 50px 15px;
 	}
 }
+
+
+@media (max-width: 1450px) {
+    @media (min-width: 990px) {
+		.contact-section .cnt-detail {
+			display: block !important;
+		}
+	}
+}
